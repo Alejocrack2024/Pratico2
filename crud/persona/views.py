@@ -21,7 +21,7 @@ class PersonaCreateView(CreateView):
 
 class PersonaUpdateView(UpdateView):
     model = Persona
-    template_name = "persona/crear.html"
+    template_name = "persona/editar.html"
     fields = ["nombre", "apellido", "edad", "oficina"]
     success_url = reverse_lazy("persona:lista")
 
