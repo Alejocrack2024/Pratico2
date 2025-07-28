@@ -2,6 +2,10 @@ from django.shortcuts import render
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from django.urls import reverse_lazy
 from .models import Persona
+from django.db.models import Q
+# Import login mixins if needed
+from django.contrib.auth.mixins import LoginRequiredMixin
+
 
 class PersonaListView(ListView):
     model = Persona
@@ -13,19 +17,19 @@ class PersonaDetailView(DetailView):
     template_name = "persona/detalle.html"
     context_object_name = "persona"
 
-class PersonaCreateView(CreateView):
+class PersonaCreateView(LoginRequiredMixin, CreateView):
     model = Persona
     template_name = "persona/crear.html"
     fields = ["nombre", "apellido", "edad", "oficina"]
     success_url = reverse_lazy("persona:lista")
 
-class PersonaUpdateView(UpdateView):
+class PersonaUpdateView(LoginRequiredMixin,UpdateView):
     model = Persona
     template_name = "persona/editar.html"
     fields = ["nombre", "apellido", "edad", "oficina"]
     success_url = reverse_lazy("persona:lista")
 
-class PersonaDeleteView(DeleteView):
+class PersonaDeleteView(LoginRequiredMixin,DeleteView):
     model = Persona
     template_name = "persona/eliminar.html"
     context_object_name = "persona"
