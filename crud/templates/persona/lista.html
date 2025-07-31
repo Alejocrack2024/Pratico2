@@ -1,13 +1,18 @@
 {% extends 'base.html' %}
 
 {% block content %}
-   
+  <h1>
+    {{ titulo }}
+  </h1>
    {% if personas %}
      <ul>
        {% for persona in personas %}
          <li>{{ persona.nombre }} - {{ persona.apellido }} - {{ persona.edad }} - {{ persona.oficina }}</li>
        {% endfor %}
      </ul>
+     {% include 'paginator.html' %}
+   {% else %}
+     <p>No se encontraron personas registradas.</p>
+
    {% endif %}
-    
 {% endblock content %}

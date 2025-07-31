@@ -129,3 +129,9 @@ LOGIN_REDIRECT_URL = 'persona:lista'
 
 # Logout redirect URL
 LOGOUT_REDIRECT_URL = 'persona:lista'
+
+# login redirect URL 
+LOGIN_REDIRECT_URL = 'oficina:lista'
+
+# Logout redirect URL
+LOGOUT_REDIRECT_URL = 'oficina:lista'
