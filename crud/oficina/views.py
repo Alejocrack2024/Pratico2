@@ -5,6 +5,7 @@ from .models import Oficina
 from django.db.models import Q
 # Import login mixins if needed
 from django.contrib.auth.mixins import LoginRequiredMixin
+from persona.models import Persona
 
 class OficinaListView(ListView):
     model = Oficina
@@ -15,6 +16,11 @@ class OficinaDetailView(DetailView):
     model = Oficina
     template_name = 'oficina/detalle.html'
     context_object_name = 'oficina'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['personas'] = Persona.objects.filter(oficina=self.object)
+        return context
 
 class OficinaCreateView(LoginRequiredMixin, CreateView):
     model = Oficina

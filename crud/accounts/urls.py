@@ -28,4 +28,7 @@ urlpatterns = [
         views.SignUpView.as_view(),
         name='signup'
     ),
+    path('verificacion/',
+        views.verificacion_view,
+        name='verificacion'),
 ]

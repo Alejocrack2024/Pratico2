@@ -5,6 +5,19 @@ from django.shortcuts import render
 from django.views.generic import CreateView, TemplateView
 from django.urls import reverse_lazy
 from django.contrib.auth.forms import UserCreationForm
+from django.shortcuts import render
+from .forms import VerificacionForm
+
+def verificacion_view(request):
+    mensaje = ""
+    if request.method == "POST":
+        form = VerificacionForm(request.POST)
+        if form.is_valid():
+            mensaje = "¡Verificación exitosa!"
+            form = VerificacionForm()
+    else:
+        form = VerificacionForm()
+    return render(request, "accounts/verificacion.html", {"form": form, "mensaje": mensaje})
 
 class SignUpView(CreateView):
     """
