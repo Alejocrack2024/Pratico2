@@ -16,11 +16,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from accounts.views import MyLoginView, SignUpView, LogoutMessageView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('persona/', include('persona.urls')),
     path('oficina/', include('oficina.urls')),
-    path('accounts/', include('accounts.urls')),
-    path('captcha/', include('captcha.urls')),
+    path('captcha/', include('captcha.urls')),   # <- necesaria para django-simple-captcha
+    path('accounts/login/', MyLoginView.as_view(), name='login'),
+    path('accounts/signup/', SignUpView.as_view(), name='signup'),
+    path('accounts/logout-message/', LogoutMessageView.as_view(), name='logout_message'),
+    path('accounts/', include('accounts.urls', namespace='accounts'))
 ]
+

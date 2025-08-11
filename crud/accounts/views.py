@@ -3,34 +3,27 @@ from django.shortcuts import render
 # Create your views here.
 # CBV for signup view
 from django.views.generic import CreateView, TemplateView
+from django.contrib.auth.views import LoginView
 from django.urls import reverse_lazy
-from django.contrib.auth.forms import UserCreationForm
-from django.shortcuts import render
-from .forms import VerificacionForm
-
-def verificacion_view(request):
-    mensaje = ""
-    if request.method == "POST":
-        form = VerificacionForm(request.POST)
-        if form.is_valid():
-            mensaje = "¡Verificación exitosa!"
-            form = VerificacionForm()
-    else:
-        form = VerificacionForm()
-    return render(request, "accounts/verificacion.html", {"form": form, "mensaje": mensaje})
+from .forms import CaptchaAuthenticationForm, CaptchaUserCreationForm
 
 class SignUpView(CreateView):
     """
-    View for creating a new user account, with a response rendered by a template.
+    View for creating a new user account with captcha.
     """
-    form_class = UserCreationForm
+    form_class = CaptchaUserCreationForm
     template_name = 'accounts/signup.html'
-    success_url = reverse_lazy('accounts:login') # Redirect to login page after successful signup
+    success_url = reverse_lazy('accounts:login')
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['title'] = 'Sign Up'
         return context
+
+class MyLoginView(LoginView):
+    template_name = 'accounts/login.html'
+    authentication_form = CaptchaAuthenticationForm
+    redirect_authenticated_user = True
 
 class LogoutMessageView(TemplateView):
     """
