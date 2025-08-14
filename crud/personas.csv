@@ -1,101 +1,101 @@
-nombre,apellido,edad,oficina
-Maria,Lopez,35,Sucursal Córdoba
-Juan,Perez,28,Sucursal Buenos Aires
-Ana,Garcia,42,Sucursal Mendoza
-Pedro,Martinez,51,Sucursal Córdoba
-Laura,Rodriguez,23,Sucursal Buenos Aires
-Carlos,Sanchez,60,Sucursal Mendoza
-Sofia,Fernandez,31,Sucursal Córdoba
-Diego,Gomez,39,Sucursal Buenos Aires
-Valeria,Diaz,27,Sucursal Mendoza
-Andres,Ruiz,45,Sucursal Córdoba
-Paula,Hernandez,20,Sucursal Buenos Aires
-Javier,Moreno,55,Sucursal Mendoza
-Camila,Torres,33,Sucursal Córdoba
-Ricardo,Blanco,48,Sucursal Buenos Aires
-Daniel,Salazar,29,Sucursal Mendoza
-Luciana,Castro,37,Sucursal Córdoba
-Fernando,Vargas,62,Sucursal Buenos Aires
-Florencia,Rojas,25,Sucursal Mendoza
-Manuel,Ramos,50,Sucursal Córdoba
-Valentina,Morales,30,Sucursal Buenos Aires
-Gonzalo,Castillo,41,Sucursal Mendoza
-Mariana,Ortiz,22,Sucursal Córdoba
-Cristian,Gallardo,58,Sucursal Buenos Aires
-Josefina,Nuñez,36,Sucursal Mendoza
-Esteban,Soto,43,Sucursal Córdoba
-Alejandra,Reyes,26,Sucursal Buenos Aires
-Mauricio,Mendoza,49,Sucursal Mendoza
-Romina,Contreras,32,Sucursal Córdoba
-Federico,Ponce,53,Sucursal Buenos Aires
-Carolina,Herrera,21,Sucursal Mendoza
-Joaquin,Aguilar,65,Sucursal Córdoba
-Emilia,Guzman,34,Sucursal Buenos Aires
-Ignacio,Caceres,40,Sucursal Mendoza
-Lorena,Bravo,24,Sucursal Córdoba
-Francisco,Vera,56,Sucursal Buenos Aires
-Daniela,Cordero,38,Sucursal Mendoza
-Martin,Loyola,46,Sucursal Córdoba
-Agustina,Fuentes,27,Sucursal Buenos Aires
-Gabriel,Orellana,52,Sucursal Mendoza
-Catalina,Medina,29,Sucursal Córdoba
-Felipe,Miranda,35,Sucursal Buenos Aires
-Cecilia,Soto,47,Sucursal Mendoza
-Benjamin,Jimenez,19,Sucursal Córdoba
-Victoria,Moya,30,Sucursal Buenos Aires
-Patricio,Sanhueza,59,Sucursal Mendoza
-Antonia,Sepulveda,33,Sucursal Córdoba
-Leonardo,Reyes,44,Sucursal Buenos Aires
-Fernanda,Araya,28,Sucursal Mendoza
-Sebastian,Perez,61,Sucursal Córdoba
-Isidora,Torres,31,Sucursal Buenos Aires
-Ramiro,Figueroa,54,Sucursal Mendoza
-Camila,Rivas,22,Sucursal Córdoba
-Luciano,Navarro,48,Sucursal Buenos Aires
-Josefa,Rojas,26,Sucursal Mendoza
-Eduardo,Salazar,57,Sucursal Córdoba
-Trinidad,Soto,20,Sucursal Buenos Aires
-Benjamin,Silva,63,Sucursal Mendoza
-Javiera,Gonzalez,34,Sucursal Córdoba
-Matias,Pizarro,39,Sucursal Buenos Aires
-Renata,Soto,23,Sucursal Mendoza
-Diego,Fuentes,50,Sucursal Córdoba
-Francisca,Olivares,37,Sucursal Buenos Aires
-Maximiliano,Vasquez,41,Sucursal Mendoza
-Emilia,Vega,25,Sucursal Córdoba
-Nicolas,Carrasco,49,Sucursal Buenos Aires
-Constanza,Vargas,32,Sucursal Mendoza
-Daniela,Flores,29,Sucursal Córdoba
-Joaquin,Soto,52,Sucursal Buenos Aires
-Amanda,Reyes,30,Sucursal Mendoza
-Cristobal,Lagos,60,Sucursal Córdoba
-Catalina,Sepulveda,38,Sucursal Buenos Aires
-Alonso,Vidal,45,Sucursal Mendoza
-Isidora,Martinez,27,Sucursal Córdoba
-Vicente,Ramirez,55,Sucursal Buenos Aires
-Paz,Soto,31,Sucursal Mendoza
-Felipe,Jimenez,40,Sucursal Córdoba
-Sofia,Sanchez,24,Sucursal Buenos Aires
-Ignacio,Contreras,53,Sucursal Mendoza
-Valentina,Moya,28,Sucursal Córdoba
-Esteban,Vera,42,Sucursal Buenos Aires
-Antonia,Orellana,36,Sucursal Mendoza
-Ricardo,Miranda,62,Sucursal Córdoba
-Javiera,Bravo,21,Sucursal Buenos Aires
-Sebastian,Pizarro,51,Sucursal Mendoza
-Fernanda,Soto,33,Sucursal Córdoba
-Gabriel,Reyes,47,Sucursal Buenos Aires
-Martina,Araya,26,Sucursal Mendoza
-Julian,Gallardo,58,Sucursal Córdoba
-Romina,Nuñez,35,Sucursal Buenos Aires
-Agustin,Cordero,43,Sucursal Mendoza
-Paula,Loyola,29,Sucursal Córdoba
-Diego,Fuentes,56,Sucursal Buenos Aires
-Valeria,Sanchez,30,Sucursal Mendoza
-Andres,Torres,65,Sucursal Córdoba
-Camila,Vega,25,Sucursal Buenos Aires
-Nicolas,Jimenez,46,Sucursal Mendoza
-Sofia,Araya,32,Sucursal Córdoba
-Patricio,Silva,59,Sucursal Buenos Aires
-Florencia,Rojas,23,Sucursal Mendoza
-Manuel,Vera,44,Sucursal Córdoba
+nombre,apellido,edad,oficina_nombre,oficina_nombre_corto
+Maria,Lopez,35,Sucursal Córdoba,CBA
+Juan,Perez,28,Sucursal Buenos Aires,BA
+Ana,Garcia,42,Sucursal Mendoza,MDZ
+Pedro,Martinez,51,Sucursal Córdoba,CBA
+Laura,Rodriguez,23,Sucursal Buenos Aires,BA
+Carlos,Sanchez,60,Sucursal Mendoza,MDZ
+Sofia,Fernandez,31,Sucursal Córdoba,CBA
+Diego,Gomez,39,Sucursal Buenos Aires,BA
+Valeria,Diaz,27,Sucursal Mendoza,MDZ
+Andres,Ruiz,45,Sucursal Córdoba,CBA
+Paula,Hernandez,20,Sucursal Buenos Aires,BA
+Javier,Moreno,55,Sucursal Mendoza,MDZ
+Camila,Torres,33,Sucursal Córdoba,CBA
+Ricardo,Blanco,48,Sucursal Buenos Aires,BA
+Daniel,Salazar,29,Sucursal Mendoza,MDZ
+Luciana,Castro,37,Sucursal Córdoba,CBA
+Fernando,Vargas,62,Sucursal Buenos Aires,BA
+Florencia,Rojas,25,Sucursal Mendoza,MDZ
+Manuel,Ramos,50,Sucursal Córdoba,CBA
+Valentina,Morales,30,Sucursal Buenos Aires,BA
+Gonzalo,Castillo,41,Sucursal Mendoza,MDZ
+Mariana,Ortiz,22,Sucursal Córdoba,CBA
+Cristian,Gallardo,58,Sucursal Buenos Aires,BA
+Josefina,Nuñez,36,Sucursal Mendoza,MDZ
+Esteban,Soto,43,Sucursal Córdoba,CBA
+Alejandra,Reyes,26,Sucursal Buenos Aires,BA
+Mauricio,Mendoza,49,Sucursal Mendoza,MDZ
+Romina,Contreras,32,Sucursal Córdoba,CBA
+Federico,Ponce,53,Sucursal Buenos Aires,BA
+Carolina,Herrera,21,Sucursal Mendoza,MDZ
+Joaquin,Aguilar,65,Sucursal Córdoba,CBA
+Emilia,Guzman,34,Sucursal Buenos Aires,BA
+Ignacio,Caceres,40,Sucursal Mendoza,MDZ
+Lorena,Bravo,24,Sucursal Córdoba,CBA
+Francisco,Vera,56,Sucursal Buenos Aires,BA
+Daniela,Cordero,38,Sucursal Mendoza,MDZ
+Martin,Loyola,46,Sucursal Córdoba,CBA
+Agustina,Fuentes,27,Sucursal Buenos Aires,BA
+Gabriel,Orellana,52,Sucursal Mendoza,MDZ
+Catalina,Medina,29,Sucursal Córdoba,CBA
+Felipe,Miranda,35,Sucursal Buenos Aires,BA
+Cecilia,Soto,47,Sucursal Mendoza,MDZ
+Benjamin,Jimenez,19,Sucursal Córdoba,CBA
+Victoria,Moya,30,Sucursal Buenos Aires,BA
+Patricio,Sanhueza,59,Sucursal Mendoza,MDZ
+Antonia,Sepulveda,33,Sucursal Córdoba,CBA
+Leonardo,Reyes,44,Sucursal Buenos Aires,BA
+Fernanda,Araya,28,Sucursal Mendoza,MDZ
+Sebastian,Perez,61,Sucursal Córdoba,CBA
+Isidora,Torres,31,Sucursal Buenos Aires,BA
+Ramiro,Figueroa,54,Sucursal Mendoza,MDZ
+Camila,Rivas,22,Sucursal Córdoba,CBA
+Luciano,Navarro,48,Sucursal Buenos Aires,BA
+Josefa,Rojas,26,Sucursal Mendoza,MDZ
+Eduardo,Salazar,57,Sucursal Córdoba,CBA
+Trinidad,Soto,20,Sucursal Buenos Aires,BA
+Benjamin,Silva,63,Sucursal Mendoza,MDZ
+Javiera,Gonzalez,34,Sucursal Córdoba,CBA
+Matias,Pizarro,39,Sucursal Buenos Aires,BA
+Renata,Soto,23,Sucursal Mendoza,MDZ
+Diego,Fuentes,50,Sucursal Córdoba,CBA
+Francisca,Olivares,37,Sucursal Buenos Aires,BA
+Maximiliano,Vasquez,41,Sucursal Mendoza,MDZ
+Emilia,Vega,25,Sucursal Córdoba,CBA
+Nicolas,Carrasco,49,Sucursal Buenos Aires,BA
+Constanza,Vargas,32,Sucursal Mendoza,MDZ
+Daniela,Flores,29,Sucursal Córdoba,CBA
+Joaquin,Soto,52,Sucursal Buenos Aires,BA
+Amanda,Reyes,30,Sucursal Mendoza,MDZ
+Cristobal,Lagos,60,Sucursal Córdoba,CBA
+Catalina,Sepulveda,38,Sucursal Buenos Aires,BA
+Alonso,Vidal,45,Sucursal Mendoza,MDZ
+Isidora,Martinez,27,Sucursal Córdoba,CBA
+Vicente,Ramirez,55,Sucursal Buenos Aires,BA
+Paz,Soto,31,Sucursal Mendoza,MDZ
+Felipe,Jimenez,40,Sucursal Córdoba,CBA
+Sofia,Sanchez,24,Sucursal Buenos Aires,BA
+Ignacio,Contreras,53,Sucursal Mendoza,MDZ
+Valentina,Moya,28,Sucursal Córdoba,CBA
+Esteban,Vera,42,Sucursal Buenos Aires,BA
+Antonia,Orellana,36,Sucursal Mendoza,MDZ
+Ricardo,Miranda,62,Sucursal Córdoba,CBA
+Javiera,Bravo,21,Sucursal Buenos Aires,BA
+Sebastian,Pizarro,51,Sucursal Mendoza,MDZ
+Fernanda,Soto,33,Sucursal Córdoba,CBA
+Gabriel,Reyes,47,Sucursal Buenos Aires,BA
+Martina,Araya,26,Sucursal Mendoza,MDZ
+Julian,Gallardo,58,Sucursal Córdoba,CBA
+Romina,Nuñez,35,Sucursal Buenos Aires,BA
+Agustin,Cordero,43,Sucursal Mendoza,MDZ
+Paula,Loyola,29,Sucursal Córdoba,CBA
+Diego,Fuentes,56,Sucursal Buenos Aires,BA
+Valeria,Sanchez,30,Sucursal Mendoza,MDZ
+Andres,Torres,65,Sucursal Córdoba,CBA
+Camila,Vega,25,Sucursal Buenos Aires,BA
+Nicolas,Jimenez,46,Sucursal Mendoza,MDZ
+Sofia,Araya,32,Sucursal Córdoba,CBA
+Patricio,Silva,59,Sucursal Buenos Aires,BA
+Florencia,Rojas,23,Sucursal Mendoza,MDZ
+Manuel,Vera,44,Sucursal Córdoba,CBA
