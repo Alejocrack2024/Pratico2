@@ -40,7 +40,13 @@ INSTALLED_APPS = [
     'persona',
     'oficina',
     'accounts',
-    'captcha'
+    'bootstrap4',
+    'crispy_forms',
+    'crispy_bootstrap4',
+    'captcha',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
 ]
 
 MIDDLEWARE = [
@@ -51,6 +57,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'allauth.account.middleware.AccountMiddleware',
 ]
 
 ROOT_URLCONF = 'crud.urls'
@@ -136,3 +143,12 @@ LOGIN_REDIRECT_URL = 'oficina:lista'
 
 # Logout redirect URL
 LOGOUT_REDIRECT_URL = 'oficina:lista'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+SITE_ID = 1
+
+ACCOUNT_FORMS = {
+    'signup':'accounts.forms.CustomSignupForm',
+}
+
+ACCOUNT_EMAIL_VERIFICATION = 'none'
