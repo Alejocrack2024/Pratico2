@@ -1,0 +1,23 @@
+{# home/templates/home/home.html #}
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+  <div class="container">
+    <h1>Bienvenido a Pratico2</h1>
+    <p>Esta es la página de inicio.</p>
+
+    {% if persona_count is not None %}
+      <p>Total de personas: {{ persona_count }}</p>
+    {% endif %}
+
+    {% if oficina_count is not None %}
+      <p>Total de oficinas: {{ oficina_count }}</p>
+    {% endif %}
+
+    <p>
+      <a href="{% url 'persona:lista' %}">Ver personas</a> |
+      <a href="{% url 'oficina:lista' %}">Ver oficinas</a>
+    </p>
+  </div>
+{% endblock %}
