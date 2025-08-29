@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{{ titulo }}</h1>
+
+    {% if personas %}
+        <h1>Resultados</h1>
+        <ul>
+
+            {% for persona in personas %}
+                <li>{{ persona }}</li>
+            {% endfor %}
+
+        </ul>
+
+    {% else %}
+        <p>Resultados:</p>
+    {% endif %}
+
+{% endblock content %}

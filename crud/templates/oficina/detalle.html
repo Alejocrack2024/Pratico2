@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>Detalle de Oficina</h1>
+    <p><strong>Nombre:</strong> {{ oficina.nombre }} - {{ oficina.nombre_corto }}</p>
+    <h3>Personas en esta oficina:</h3>
+    <ul>
+      {% for persona in personas %}
+        <li>{{ persona.nombre }} {{ persona.apellido }}</li>
+      {% empty %}
+        <li>No hay personas en esta oficina.</li>
+      {% endfor %}
+    </ul>
+    <a href="{% url 'oficina:lista' %}" class="btn btn-secondary">Volver a la lista</a>
+{% endblock content %}
